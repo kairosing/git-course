@@ -24,10 +24,24 @@ git config --global user.email
 
 
 git remote add origin git@github.com:kairosing/git-course.git
-git push -u origin master
+Если репозиторий уже существует тогда прописываем
+git remote set-url origin git@github.com:kairosing/git-course.git
 
+git push -u origin master
+git push -f origin master
+
+Теперь появилась такая ошибка 
 fatal: 'master' does not appear to be a git repository
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+
+Чтобы ее обойти 
+
+
+git remote set-url origin git@github.com:kairosing/git-course.git
+за место этой команды надо прописать команду ниже
+
+git remote set-url  origin https://github.com/kairosing/git-course
+Тоесть все дело в https://
