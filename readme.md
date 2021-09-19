@@ -45,3 +45,8 @@ git remote set-url origin git@github.com:kairosing/git-course.git
 
 git remote set-url  origin https://github.com/kairosing/git-course
 Тоесть все дело в https://
+
+
+Еще одно крутое приложение для Github
+Octotree - GitHub code tree
+Просто устанавливаем и работаем
