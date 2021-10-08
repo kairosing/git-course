@@ -45,6 +45,8 @@ git remote set-url origin git@github.com:kairosing/git-course.git
 
 git remote set-url  origin https://github.com/kairosing/git-course
 Тоесть все дело в https://
+
+
 Если хотите клонировать определенную ветку тогда:
 git clone -b master https://github.com/kairosing/git-course
 либо git clone -b main https://github.com/kairosing/git-course
